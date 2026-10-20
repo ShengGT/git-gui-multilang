@@ -1,0 +1,776 @@
+{
+ "generated": "2026-10-20",
+ "source_strings": 608,
+ "engine": "DeepL + Bing + official PO",
+ "locales": [
+  {
+   "locale": "bg",
+   "en": "Bulgarian",
+   "native": "Български",
+   "script": "cyrillic",
+   "tier": "official",
+   "active": 608,
+   "file": "msgs/bg.msg"
+  },
+  {
+   "locale": "de",
+   "en": "German",
+   "native": "Deutsch",
+   "script": "latin",
+   "tier": "official",
+   "active": 608,
+   "file": "msgs/de.msg"
+  },
+  {
+   "locale": "el",
+   "en": "Greek",
+   "native": "Ελληνικά",
+   "script": "greek",
+   "tier": "official",
+   "active": 608,
+   "file": "msgs/el.msg"
+  },
+  {
+   "locale": "fr",
+   "en": "French",
+   "native": "Français",
+   "script": "latin",
+   "tier": "official",
+   "active": 608,
+   "file": "msgs/fr.msg"
+  },
+  {
+   "locale": "hu",
+   "en": "Hungarian",
+   "native": "Magyar",
+   "script": "latin",
+   "tier": "official",
+   "active": 608,
+   "file": "msgs/hu.msg"
+  },
+  {
+   "locale": "it",
+   "en": "Italian",
+   "native": "Italiano",
+   "script": "latin",
+   "tier": "official",
+   "active": 608,
+   "file": "msgs/it.msg"
+  },
+  {
+   "locale": "ja",
+   "en": "Japanese",
+   "native": "日本語",
+   "script": "cjk",
+   "tier": "official",
+   "active": 608,
+   "file": "msgs/ja.msg"
+  },
+  {
+   "locale": "nb",
+   "en": "Norwegian Bokmål",
+   "native": "Norsk bokmål",
+   "script": "latin",
+   "tier": "official",
+   "active": 608,
+   "file": "msgs/nb.msg"
+  },
+  {
+   "locale": "pt_br",
+   "en": "Portuguese (Brazil)",
+   "native": "Português (Brasil)",
+   "script": "latin",
+   "tier": "official",
+   "active": 608,
+   "file": "msgs/pt_br.msg"
+  },
+  {
+   "locale": "pt_pt",
+   "en": "Portuguese (Portugal)",
+   "native": "Português (Portugal)",
+   "script": "latin",
+   "tier": "official",
+   "active": 608,
+   "file": "msgs/pt_pt.msg"
+  },
+  {
+   "locale": "ru",
+   "en": "Russian",
+   "native": "Русский",
+   "script": "cyrillic",
+   "tier": "official",
+   "active": 608,
+   "file": "msgs/ru.msg"
+  },
+  {
+   "locale": "sv",
+   "en": "Swedish",
+   "native": "Svenska",
+   "script": "latin",
+   "tier": "official",
+   "active": 608,
+   "file": "msgs/sv.msg"
+  },
+  {
+   "locale": "vi",
+   "en": "Vietnamese",
+   "native": "Tiếng Việt",
+   "script": "latin",
+   "tier": "official",
+   "active": 608,
+   "file": "msgs/vi.msg"
+  },
+  {
+   "locale": "zh_cn",
+   "en": "Chinese (Simplified)",
+   "native": "简体中文",
+   "script": "cjk",
+   "tier": "official",
+   "active": 608,
+   "file": "msgs/zh_cn.msg"
+  },
+  {
+   "locale": "af",
+   "en": "Afrikaans",
+   "native": "Afrikaans",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/af.msg"
+  },
+  {
+   "locale": "cs",
+   "en": "Czech",
+   "native": "Čeština",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/cs.msg"
+  },
+  {
+   "locale": "da",
+   "en": "Danish",
+   "native": "Dansk",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/da.msg"
+  },
+  {
+   "locale": "es",
+   "en": "Spanish",
+   "native": "Español",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/es.msg"
+  },
+  {
+   "locale": "et",
+   "en": "Estonian",
+   "native": "Eesti",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/et.msg"
+  },
+  {
+   "locale": "fi",
+   "en": "Finnish",
+   "native": "Suomi",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/fi.msg"
+  },
+  {
+   "locale": "ha",
+   "en": "Hausa",
+   "native": "Hausa",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/ha.msg"
+  },
+  {
+   "locale": "he",
+   "en": "Hebrew",
+   "native": "עברית",
+   "script": "hebrew",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/he.msg"
+  },
+  {
+   "locale": "id",
+   "en": "Indonesian",
+   "native": "Bahasa Indonesia",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/id.msg"
+  },
+  {
+   "locale": "ig",
+   "en": "Igbo",
+   "native": "Igbo",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/ig.msg"
+  },
+  {
+   "locale": "is",
+   "en": "Icelandic",
+   "native": "Íslenska",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/is.msg"
+  },
+  {
+   "locale": "ky",
+   "en": "Kyrgyz",
+   "native": "Кыргызча",
+   "script": "cyrillic",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/ky.msg"
+  },
+  {
+   "locale": "lt",
+   "en": "Lithuanian",
+   "native": "Lietuvių",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/lt.msg"
+  },
+  {
+   "locale": "lv",
+   "en": "Latvian",
+   "native": "Latviešu",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/lv.msg"
+  },
+  {
+   "locale": "mn",
+   "en": "Mongolian",
+   "native": "Монгол",
+   "script": "cyrillic",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/mn.msg"
+  },
+  {
+   "locale": "my",
+   "en": "Burmese",
+   "native": "မြန်မာ",
+   "script": "myanmar",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/my.msg"
+  },
+  {
+   "locale": "nl",
+   "en": "Dutch",
+   "native": "Nederlands",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/nl.msg"
+  },
+  {
+   "locale": "pl",
+   "en": "Polish",
+   "native": "Polski",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/pl.msg"
+  },
+  {
+   "locale": "ps",
+   "en": "Pashto",
+   "native": "پښتو",
+   "script": "arabic",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/ps.msg"
+  },
+  {
+   "locale": "ro",
+   "en": "Romanian",
+   "native": "Română",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/ro.msg"
+  },
+  {
+   "locale": "sk",
+   "en": "Slovak",
+   "native": "Slovenčina",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/sk.msg"
+  },
+  {
+   "locale": "sl",
+   "en": "Slovenian",
+   "native": "Slovenščina",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/sl.msg"
+  },
+  {
+   "locale": "sq",
+   "en": "Albanian",
+   "native": "Shqip",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/sq.msg"
+  },
+  {
+   "locale": "tr",
+   "en": "Turkish",
+   "native": "Türkçe",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/tr.msg"
+  },
+  {
+   "locale": "uk",
+   "en": "Ukrainian",
+   "native": "Українська",
+   "script": "cyrillic",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/uk.msg"
+  },
+  {
+   "locale": "zh_tw",
+   "en": "Chinese (Traditional)",
+   "native": "繁體中文",
+   "script": "cjk",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/zh_tw.msg"
+  },
+  {
+   "locale": "zu",
+   "en": "Zulu",
+   "native": "isiZulu",
+   "script": "latin",
+   "tier": "deepl",
+   "active": 608,
+   "file": "msgs/zu.msg"
+  },
+  {
+   "locale": "no",
+   "en": "Norwegian",
+   "native": "Norsk",
+   "script": "latin",
+   "tier": "variant",
+   "active": 608,
+   "file": "msgs/no.msg",
+   "variantOf": "nb"
+  },
+  {
+   "locale": "pt",
+   "en": "Portuguese",
+   "native": "Português",
+   "script": "latin",
+   "tier": "variant",
+   "active": 608,
+   "file": "msgs/pt.msg",
+   "variantOf": "pt_br"
+  },
+  {
+   "locale": "zh_hk",
+   "en": "Chinese (Hong Kong)",
+   "native": "繁體中文（香港）",
+   "script": "latin",
+   "tier": "variant",
+   "active": 608,
+   "file": "msgs/zh_hk.msg",
+   "variantOf": "zh_tw"
+  },
+  {
+   "locale": "zh_sg",
+   "en": "Chinese (Singapore)",
+   "native": "简体中文（新加坡）",
+   "script": "latin",
+   "tier": "variant",
+   "active": 608,
+   "file": "msgs/zh_sg.msg",
+   "variantOf": "zh_cn"
+  },
+  {
+   "locale": "am",
+   "en": "Amharic",
+   "native": "አማርኛ",
+   "script": "ethiopic",
+   "tier": "bing",
+   "active": 607,
+   "file": "msgs/am.msg"
+  },
+  {
+   "locale": "ar",
+   "en": "Arabic",
+   "native": "العربية",
+   "script": "arabic",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/ar.msg"
+  },
+  {
+   "locale": "az",
+   "en": "Azerbaijani",
+   "native": "Azərbaycan dili",
+   "script": "latin",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/az.msg"
+  },
+  {
+   "locale": "be",
+   "en": "Belarusian",
+   "native": "Беларуская",
+   "script": "cyrillic",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/be.msg"
+  },
+  {
+   "locale": "bn",
+   "en": "Bengali",
+   "native": "বাংলা",
+   "script": "bengali",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/bn.msg"
+  },
+  {
+   "locale": "ca",
+   "en": "Catalan",
+   "native": "Català",
+   "script": "latin",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/ca.msg"
+  },
+  {
+   "locale": "ckb",
+   "en": "Kurdish (Sorani)",
+   "native": "کوردی",
+   "script": "arabic",
+   "tier": "bing",
+   "active": 607,
+   "file": "msgs/ckb.msg"
+  },
+  {
+   "locale": "cy",
+   "en": "Welsh",
+   "native": "Cymraeg",
+   "script": "latin",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/cy.msg"
+  },
+  {
+   "locale": "eo",
+   "en": "Esperanto",
+   "native": "Esperanto",
+   "script": "latin",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/eo.msg"
+  },
+  {
+   "locale": "eu",
+   "en": "Basque",
+   "native": "Euskara",
+   "script": "latin",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/eu.msg"
+  },
+  {
+   "locale": "fa",
+   "en": "Persian",
+   "native": "فارسی",
+   "script": "arabic",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/fa.msg"
+  },
+  {
+   "locale": "fil",
+   "en": "Filipino",
+   "native": "Filipino",
+   "script": "latin",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/fil.msg"
+  },
+  {
+   "locale": "gl",
+   "en": "Galician",
+   "native": "Galego",
+   "script": "latin",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/gl.msg"
+  },
+  {
+   "locale": "gu",
+   "en": "Gujarati",
+   "native": "ગુજરાતી",
+   "script": "gujarati",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/gu.msg"
+  },
+  {
+   "locale": "hi",
+   "en": "Hindi",
+   "native": "हिन्दी",
+   "script": "devanagari",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/hi.msg"
+  },
+  {
+   "locale": "hr",
+   "en": "Croatian",
+   "native": "Hrvatski",
+   "script": "latin",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/hr.msg"
+  },
+  {
+   "locale": "hy",
+   "en": "Armenian",
+   "native": "Հայերեն",
+   "script": "armenian",
+   "tier": "bing",
+   "active": 607,
+   "file": "msgs/hy.msg"
+  },
+  {
+   "locale": "ka",
+   "en": "Georgian",
+   "native": "ქართული",
+   "script": "georgian",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/ka.msg"
+  },
+  {
+   "locale": "kk",
+   "en": "Kazakh",
+   "native": "Қазақ тілі",
+   "script": "cyrillic",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/kk.msg"
+  },
+  {
+   "locale": "km",
+   "en": "Khmer",
+   "native": "ខ្មែរ",
+   "script": "khmer",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/km.msg"
+  },
+  {
+   "locale": "kn",
+   "en": "Kannada",
+   "native": "ಕನ್ನಡ",
+   "script": "kannada",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/kn.msg"
+  },
+  {
+   "locale": "ko",
+   "en": "Korean",
+   "native": "한국어",
+   "script": "hangul",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/ko.msg"
+  },
+  {
+   "locale": "lo",
+   "en": "Lao",
+   "native": "ລາວ",
+   "script": "lao",
+   "tier": "bing",
+   "active": 600,
+   "file": "msgs/lo.msg"
+  },
+  {
+   "locale": "mk",
+   "en": "Macedonian",
+   "native": "Македонски",
+   "script": "cyrillic",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/mk.msg"
+  },
+  {
+   "locale": "ml",
+   "en": "Malayalam",
+   "native": "മലയാളം",
+   "script": "malayalam",
+   "tier": "bing",
+   "active": 607,
+   "file": "msgs/ml.msg"
+  },
+  {
+   "locale": "mr",
+   "en": "Marathi",
+   "native": "मराठी",
+   "script": "devanagari",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/mr.msg"
+  },
+  {
+   "locale": "ms",
+   "en": "Malay",
+   "native": "Bahasa Melayu",
+   "script": "latin",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/ms.msg"
+  },
+  {
+   "locale": "ne",
+   "en": "Nepali",
+   "native": "नेपाली",
+   "script": "devanagari",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/ne.msg"
+  },
+  {
+   "locale": "pa",
+   "en": "Punjabi",
+   "native": "ਪੰਜਾਬੀ",
+   "script": "gurmukhi",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/pa.msg"
+  },
+  {
+   "locale": "si",
+   "en": "Sinhala",
+   "native": "සිංහල",
+   "script": "sinhala",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/si.msg"
+  },
+  {
+   "locale": "so",
+   "en": "Somali",
+   "native": "Soomaali",
+   "script": "latin",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/so.msg"
+  },
+  {
+   "locale": "sr",
+   "en": "Serbian (Cyrillic)",
+   "native": "Српски",
+   "script": "cyrillic",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/sr.msg"
+  },
+  {
+   "locale": "sr_latn",
+   "en": "Serbian (Latin)",
+   "native": "Srpski (latinica)",
+   "script": "latin",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/sr_latn.msg"
+  },
+  {
+   "locale": "sw",
+   "en": "Swahili",
+   "native": "Kiswahili",
+   "script": "latin",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/sw.msg"
+  },
+  {
+   "locale": "ta",
+   "en": "Tamil",
+   "native": "தமிழ்",
+   "script": "tamil",
+   "tier": "bing",
+   "active": 607,
+   "file": "msgs/ta.msg"
+  },
+  {
+   "locale": "te",
+   "en": "Telugu",
+   "native": "తెలుగు",
+   "script": "telugu",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/te.msg"
+  },
+  {
+   "locale": "th",
+   "en": "Thai",
+   "native": "ไทย",
+   "script": "thai",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/th.msg"
+  },
+  {
+   "locale": "ur",
+   "en": "Urdu",
+   "native": "اردو",
+   "script": "arabic",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/ur.msg"
+  },
+  {
+   "locale": "uz",
+   "en": "Uzbek",
+   "native": "Oʻzbekcha",
+   "script": "latin",
+   "tier": "bing",
+   "active": 608,
+   "file": "msgs/uz.msg"
+  },
+  {
+   "locale": "yo",
+   "en": "Yoruba",
+   "native": "Yorùbá",
+   "script": "latin",
+   "tier": "bing",
+   "active": 606,
+   "file": "msgs/yo.msg"
+  }
+ ]
+}

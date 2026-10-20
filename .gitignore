@@ -1,0 +1,5 @@
+work/
+*.zip
+msgs_backup_*/
+Thumbs.db
+.DS_Store
