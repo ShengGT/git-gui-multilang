@@ -35,7 +35,6 @@ Git GUI（git-gui）自带的翻译很少。本项目提供 **85 个 locale 的 
 2. 双击 **install-all-languages.bat**，Windows 询问时点“是”。
 3. 重新打开 Git GUI，它会跟随 Windows 显示语言。
 
-**安装所有语言.bat** 只是同一个安装器的中文别名。
 
 如果 UAC 被拒绝，右键 bat，选择“以管理员身份运行”。
 

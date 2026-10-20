@@ -37,7 +37,6 @@ It is designed for people who want a localized Git GUI without editing Tcl, comp
 3. Double-click **install-all-languages.bat**. Click **Yes** when Windows asks for administrator rights.
 4. Restart Git GUI. It follows your Windows display language automatically.
 
-**安装所有语言.bat** is a Chinese-named alias for the same installer.
 
 If UAC is denied, right-click the .bat and choose **Run as administrator**.
 
@@ -100,8 +99,6 @@ Git GUI calls msgcat::mcload on the msgs folder, then looks up strings by locale
 
     msgs/                        85 .msg translation files
     install-all-languages.bat    one-click installer (recommended)
-    安装所有语言.bat              Chinese alias for the same installer
-    汉化脚本.bat                  legacy alias
     INSTALL.md                   install guide in 12 languages
     README.md                    English
     README.zh-CN.md              Chinese
