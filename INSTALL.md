@@ -4,18 +4,22 @@
 
 [English](#english) · [简体中文](#简体中文) · [繁體中文](#繁體中文) · [Español](#español) · [Français](#français) · [Deutsch](#deutsch) · [Português](#português) · [Русский](#русский) · [日本語](#日本語) · [한국어](#한국어) · [العربية](#العربية) · [हिन्दी](#हिन्दी)
 
-The installer copies 85 language files into your Git GUI folder, makes a backup first, and asks for administrator rights only because Git is usually installed under C:\Program Files.
+The installer copies 85 language files into your Git GUI folder and 85 into your gitk folder, makes a backup first, and asks for administrator rights only because Git is usually installed under C:\Program Files.
 
-安装器会把 85 个语言文件复制到 Git GUI 目录，先备份，再提权；提权只是因为 Git 通常装在 C:\Program Files。
+安装器会把 85 个语言文件复制到 Git GUI 目录、85 个复制到 gitk 目录，先备份，再提权；提权只是因为 Git 通常装在 C:\Program Files。
+
+The same installer also covers gitk: it creates `<prefix>\share\gitk\lib\msgs` when needed, backs up the old catalogs, and both **Git GUI** and **gitk** should be restarted afterwards. To verify, `...\git-gui\lib\msgs` and `...\gitk\lib\msgs` should each contain 85 `.msg` files.
+
+同一个安装器也会安装 gitk：缺少 `<前缀>\share\gitk\lib\msgs` 时会自动创建，旧文件先备份；安装后建议同时重启 **Git GUI** 和 **gitk**。检查时，`...\git-gui\lib\msgs` 与 `...\gitk\lib\msgs` 应各有 85 个 `.msg` 文件。
 
 ---
 
 ## English
 
-1. Download the latest release ZIP: **git-gui-多语言包.zip**.
+1. Download the latest release ZIP: **git-gui-multilang-v1.1.0.zip**.
 2. Extract it. Do not run the .bat from inside the ZIP.
 3. Double-click **install-all-languages.bat**. Click **Yes** when Windows asks for administrator rights.
-4. Restart Git GUI. It follows your Windows display language automatically.
+4. Restart Git GUI and gitk. They follow your Windows display language automatically.
 
 The installer finds Git by itself, supports ucrt64 / mingw64 / mingw32 / usr and custom folders, and creates a backup before copying.
 
@@ -28,16 +32,16 @@ If it fails:
 
 - UAC denied: right-click the .bat and choose **Run as administrator**.
 - Git not found: drag the Git root folder onto the .bat.
-- Still English: check that ...\git-gui\lib\msgs contains 85 .msg files.
+- Still English: check that ...\git-gui\lib\msgs and ...\gitk\lib\msgs each contain 85 .msg files.
 
 ---
 
 ## 简体中文
 
-1. 下载 Release 里的 **git-gui-多语言包.zip**。
+1. 下载 Release 里的 **git-gui-multilang-v1.1.0.zip**。
 2. 解压。不要在压缩包里直接双击运行。
 3. 双击 **install-all-languages.bat**，Windows 询问时点 **“是”**。
-4. 重新打开 Git GUI，默认跟随 Windows 显示语言。
+4. 重新打开 Git GUI 和 gitk，默认跟随 Windows 显示语言。
 
 安装器会自动找 Git，支持 ucrt64 / mingw64 / mingw32 / usr 和自定义目录，复制前会备份。
 
@@ -50,7 +54,7 @@ If it fails:
 
 - UAC 被拒绝：右键 bat，选择 **以管理员身份运行**。
 - 找不到 Git：把 Git 根目录拖到 bat 上。
-- 仍是英文：检查 ...\git-gui\lib\msgs 是否有 85 个 .msg 文件。
+- 仍是英文：检查 ...\git-gui\lib\msgs 和 ...\gitk\lib\msgs 是否各有 85 个 .msg 文件。
 
 ---
 
@@ -78,7 +82,7 @@ If it fails:
 
 ## Español
 
-1. Descarga el ZIP de la última release: **git-gui-多语言包.zip**.
+1. Descarga el ZIP de la última release: **git-gui-multilang-v1.1.0.zip**.
 2. Extráelo. No ejecutes el .bat desde dentro del ZIP.
 3. Haz doble clic en **install-all-languages.bat**. Pulsa **Sí** cuando Windows pida permisos de administrador.
 4. Reinicia Git GUI. Usará automáticamente el idioma de Windows.
@@ -100,7 +104,7 @@ Si falla:
 
 ## Français
 
-1. Téléchargez le ZIP de la dernière release : **git-gui-多语言包.zip**.
+1. Téléchargez le ZIP de la dernière release : **git-gui-multilang-v1.1.0.zip**.
 2. Extrayez-le. Ne lancez pas le .bat depuis l'intérieur du ZIP.
 3. Double-cliquez sur **install-all-languages.bat**. Cliquez sur **Oui** quand Windows demande les droits d'administrateur.
 4. Redémarrez Git GUI. Il suit automatiquement la langue d'affichage de Windows.
@@ -122,7 +126,7 @@ En cas d'échec :
 
 ## Deutsch
 
-1. Lade das ZIP der neuesten Release herunter: **git-gui-多语言包.zip**.
+1. Lade das ZIP der neuesten Release herunter: **git-gui-multilang-v1.1.0.zip**.
 2. Entpacke es. Starte die .bat nicht direkt aus dem ZIP.
 3. Doppelklicke auf **install-all-languages.bat**. Klicke auf **Ja**, wenn Windows Administratorrechte anfragt.
 4. Starte Git GUI neu. Es übernimmt automatisch die Windows-Anzeigesprache.
@@ -144,7 +148,7 @@ Wenn es nicht klappt:
 
 ## Português
 
-1. Baixe o ZIP da release mais recente: **git-gui-多语言包.zip**.
+1. Baixe o ZIP da release mais recente: **git-gui-multilang-v1.1.0.zip**.
 2. Extraia. Não execute o .bat de dentro do ZIP.
 3. Dê um duplo clique em **install-all-languages.bat**. Clique em **Sim** quando o Windows pedir permissões de administrador.
 4. Reinicie o Git GUI. Ele segue automaticamente o idioma do Windows.
@@ -166,7 +170,7 @@ Se falhar:
 
 ## Русский
 
-1. Скачайте ZIP последнего релиза: **git-gui-多语言包.zip**.
+1. Скачайте ZIP последнего релиза: **git-gui-multilang-v1.1.0.zip**.
 2. Распакуйте. Не запускайте .bat изнутри ZIP.
 3. Дважды щёлкните **install-all-languages.bat**. Нажмите **Да**, когда Windows запросит права администратора.
 4. Перезапустите Git GUI. Он автоматически использует язык Windows.
@@ -188,7 +192,7 @@ Se falhar:
 
 ## 日本語
 
-1. 最新リリースの **git-gui-多语言包.zip** をダウンロードします。
+1. 最新リリースの **git-gui-multilang-v1.1.0.zip** をダウンロードします。
 2. 解凍します。ZIP の中から .bat を直接実行しないでください。
 3. **install-all-languages.bat** をダブルクリックします。Windows の管理者権限の確認では **「はい」** を選びます。
 4. Git GUI を再起動します。Windows の表示言語が自動で使われます。
@@ -210,7 +214,7 @@ Se falhar:
 
 ## 한국어
 
-1. 최신 릴리스의 **git-gui-多语言包.zip**을 다운로드합니다.
+1. 최신 릴리스의 **git-gui-multilang-v1.1.0.zip**을 다운로드합니다.
 2. 압축을 풉니다. ZIP 안에서 .bat을 직접 실행하지 마세요.
 3. **install-all-languages.bat**을 더블클릭합니다. Windows가 관리자 권한을 물으면 **예**를 선택합니다.
 4. Git GUI를 다시 시작합니다. Windows 표시 언어를 자동으로 따릅니다.
@@ -232,7 +236,7 @@ Se falhar:
 
 ## العربية
 
-1. نزّل ملف ZIP من أحدث إصدار: **git-gui-多语言包.zip**.
+1. نزّل ملف ZIP من أحدث إصدار: **git-gui-multilang-v1.1.0.zip**.
 2. استخرجه. لا تشغّل ملف .bat من داخل ZIP.
 3. انقر نقرًا مزدوجًا على **install-all-languages.bat**. اختر **نعم** عندما يطلب Windows صلاحيات المسؤول.
 4. أعد تشغيل Git GUI. سيستخدم لغة عرض Windows تلقائيًا.
@@ -254,7 +258,7 @@ Se falhar:
 
 ## हिन्दी
 
-1. नवीनतम रिलीज़ की **git-gui-多语言包.zip** डाउनलोड करें।
+1. नवीनतम रिलीज़ की **git-gui-multilang-v1.1.0.zip** डाउनलोड करें।
 2. इसे एक्सट्रैक्ट करें। ZIP के अंदर से .bat न चलाएँ।
 3. **install-all-languages.bat** पर डबल-क्लिक करें। Windows प्रशासक अधिकार माँगे तो **हाँ** चुनें।
 4. Git GUI को फिर से खोलें। यह Windows की डिस्प्ले भाषा अपने आप ले लेगा।

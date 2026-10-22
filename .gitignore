@@ -1,5 +1,7 @@
 work/
 *.zip
 msgs_backup_*/
+__pycache__/
+*.py[cod]
 Thumbs.db
 .DS_Store
